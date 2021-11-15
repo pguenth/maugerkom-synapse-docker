@@ -18,6 +18,6 @@ Steps to deploy:
 5. Check if everything works with https://federationtester.matrix.org/
 
 Three volumes will be generated:
-    - `schemas` containing the postgres data
-    - `data` containing the synapse keys and other data
-    - `caddy` containing caddy data such as SSL keys
+* `schemas` containing the postgres data
+* `data` containing the synapse keys and other data
+* `caddy` containing caddy data such as SSL keys
