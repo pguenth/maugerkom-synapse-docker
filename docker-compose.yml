@@ -36,6 +36,10 @@ services:
             POSTGRES_USER: synapse
             POSTGRES_PASSWORD: passwort
             SYNAPSE_CONFIG_PATH: /config/homeserver.yaml
+        logging:
+            options:
+                max-size: "100m"
+                max-file: "3"
 
     postgres:
         image: postgres

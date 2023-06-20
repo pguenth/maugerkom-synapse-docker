@@ -1283,8 +1283,8 @@ account_threepid_delegates:
 # If the room already exists, make certain it is a publicly joinable
 # room. The join rule of the room must be set to 'public'.
 #
-#auto_join_rooms:
-#  - "#example:example.com"
+auto_join_rooms:
+  - "#general:maugerkom.org"
 
 # Where auto_join_rooms are specified, setting this flag ensures that the
 # the rooms exist by creating them when the first user on the
@@ -1300,7 +1300,7 @@ account_threepid_delegates:
 # Defaults to true. Uncomment the following line to disable automatically
 # creating auto-join rooms.
 #
-#autocreate_auto_join_rooms: false
+autocreate_auto_join_rooms: false
 
 # Whether the auto_join_rooms that are auto-created are available via
 # federation. Only has an effect if autocreate_auto_join_rooms is true.
